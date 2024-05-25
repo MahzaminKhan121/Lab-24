@@ -1,0 +1,38 @@
+.container{
+	display: flex;
+}
+.items{
+	padding: 20px;
+	margin: 5px;
+}
+
+.one{
+	background: teal;
+	order: 6;
+	flex-grow: 1;
+
+
+}
+.two{
+	background: purple;
+	flex-grow: 1;
+}
+.three{
+	background: teal;
+	order: 5;
+	flex-grow: 1;
+	
+}
+.four{
+	background: purple;
+	flex-grow: 1;
+}
+.five{
+	background: teal;
+	order: 3;	
+	flex-grow: 1;
+}
+.six{
+	background: purple;
+	flex-grow: 1;
+}
